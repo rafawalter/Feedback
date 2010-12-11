@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://www.mantisbt.org/bugs/api/soap/mantisconnect.php?wsdl" uri="xml-resources/jaxb/Mantis/www.mantisbt.org/bugs/api/soap/mantisconnect.php.wsdl"/>
+    <system systemId="file:/Users/rafawalter/Dropbox/cachassa/Feedback/src/feedback/mantisconnect.xml" uri="xml-resources/jaxb/MantisConnect/mantisconnect.xml.wsdl"/>
+</catalog>

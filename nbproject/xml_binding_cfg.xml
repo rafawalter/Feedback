@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated-sources/jaxb' projectName='Feedback' version='1.0'>
+	<schema type='-wsdl' package='feedback.adapaters.mantis' name='Mantis'>
+		<xjc-options>
+			<xjc-option name='-npa' value='true'/>
+			<xjc-option name='-extension' value='true'/>
+			<xjc-option name='-readOnly' value='true'/>
+			<xjc-option name='-verbose' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/Mantis/www.mantisbt.org/bugs/api/soap/mantisconnect.php.wsdl' origLocation='http://www.mantisbt.org/bugs/api/soap/mantisconnect.php?wsdl' origLocationType='url'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+	<schema type='-xmlschema' package='' name='MantisConnect'>
+		<xjc-options>
+			<xjc-option name='-npa' value='true'/>
+			<xjc-option name='-nv' value='true'/>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/MantisConnect/mantisconnect.xml.wsdl' origLocation='src/feedback/mantisconnect.xml'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>
